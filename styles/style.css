@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ccc;
+}
+
+.principal{
+    background-image: url(/imagens/bg-3.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;   
+
+}
