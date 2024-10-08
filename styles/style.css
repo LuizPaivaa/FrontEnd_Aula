@@ -20,4 +20,10 @@ body{
 }
 .conteudo h1{
     font-size: 56px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.conteudo p{
+    
 }
