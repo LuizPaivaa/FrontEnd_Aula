@@ -6,10 +6,27 @@ body{
 
 .principal{
     background-image: url(../imagens/bg-3.jpg);
-    height: 500px;
+    height: 700px;
     background-size: cover;
     background-position: right center;
-    padding-top: 1px;   
+    padding-top: 1px;
+       
+}
+.principal ul{
+    margin-left: 70%;
+    font-size: 25px;
+}
+.principal ul li {
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-right: 35px;
+    border: outset;
+    margin-top: 35px;
+    padding: 10px 10px 10px 10px;  
+}
+.principal a{
+    text-decoration: none;
+    color: white;
 }
 
 .conteudo{
@@ -25,5 +42,48 @@ body{
     margin-bottom: 0;
 }
 .conteudo p{
-    
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: inset;
+    width: 35%;
+    padding-top: 10px;
+    margin-left: 32%;
+}
+main article{
+    background-color: white;
+    width: 70%;
+    height: 250px;
+    margin-left: 15%;
+    padding-left: 35px;
+    margin-top: 15px;
+    padding-top: 1px;
+}
+main h2 {
+    height: 35px;
+    background-color: #ccc;
+    margin-right: 35px;
+    border: outset;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+main p {
+    margin-bottom: 30px;
+}
+main a{ 
+    height: 35px;
+    background-color: #ccc;
+    margin-right: 35px;
+    border: outset;
+    margin-top: 35px;
+    padding: 10px 10px 10px 10px;   
+}
+
+footer{
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-size: 35px;
+    margin-top: 35px;
+    padding-top: 35px;
+    color: white;
 }
